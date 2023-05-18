@@ -1,0 +1,7 @@
+:not(:lang(ar)) {
+  direction: ltr;
+  text-align: left;
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+}

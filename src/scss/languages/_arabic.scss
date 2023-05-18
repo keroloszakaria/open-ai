@@ -1,0 +1,58 @@
+:lang(ar) {
+  direction: rtl;
+  text-align: right;
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  .banner {
+    &__content {
+      .ai {
+        &__text {
+          right: -150px;
+        }
+        &__elements {
+          left: -160px;
+        }
+      }
+    }
+    &__thumb {
+      position: relative;
+      &::before {
+        left: 0;
+      }
+      .thumb {
+        img {
+          transform: scaleX(-1);
+        }
+      }
+      .rocket__element {
+        left: -280px;
+      }
+    }
+  }
+  .ball__element {
+    right: 40px;
+  }
+  .banner__mask {
+    right: 0;
+    transform: scaleX(-1);
+  }
+  .light {
+    &__element1 {
+      right: 200px;
+    }
+
+    &__element2 {
+      right: 50%;
+    }
+    &__element3 {
+      right: 50%;
+    }
+    &__element4 {
+      left: 300px;
+    }
+    &__element5 {
+      left: 200px;
+    }
+  }
+}
